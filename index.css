@@ -1,0 +1,28 @@
+.container1
+{
+    display:flex;    
+}
+.form-control1
+{
+    width:120%;
+}
+.FakePSW
+{
+   width:180%;
+}
+.FakePSW
+{
+    width:180%;
+}
+.container2
+{
+    background-color: aqua;
+    padding-left: 5%;
+    padding-right: 20%;
+}
+.container
+{
+    padding : 1% 10% 10% 10% ;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOC7bHeuilQjE567r_3EvIyJqfYTGArf9uNFzjtvkKpw&s")
+}
+

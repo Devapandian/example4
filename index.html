@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Welcome to Dribbble</title>
+
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="container1">
+      <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" jsaction="VQAsE"
+        class="r48jcc pT0Scc iPVvYb" style="max-width: 1080px; height: 730px; margin: 0px; width: 450px;"
+        alt="800,000+ Best Free Nature Pictures &amp; Images [HD] - Pixabay" jsname="kn3ccd">
+      <div class="container2">
+        <p>
+        <h1>Welcome to Dribbble</h1>
+        </p>
+        <br><label for="username"><b>Username</b></label></br>
+        <br> <input type="text" placeholder="Username" name="username" class="form-control1"></br>
+        <br><label for="email"><b>Email</b></label></br>
+        <br><input type="text" placeholder="@gmail.com" name="email" class="form-control1"></br>
+
+        <br><label for="psw"><b>New Password</b></label></br>
+        <br><input type="password" value="" id="myInput">
+        <input type="checkbox" onclick="myFunction()"></br> 
+        <br><label for="psw"><b>ConformPassword</b></label></br>
+        <br><input type="password" value="" id="myInput1">
+       <input type="checkbox" onclick="myFunction1()"></br>
+        <br><label>
+          <input type="checkbox" checked="checked" name="remember">Privacy policy
+        </label></br>
+
+
+        <br><button type="submit" onclick="signupbtn()">Create account</button></br>
+
+        <br><a
+          href="https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Fmyaccount.google.com%3Futm_source%3Daccount-marketing-page%26utm_medium%3Dcreate-account-button&flowName=GlifWebSignIn&flowEntry=SignUp">Signin</a>
+        <a
+          href="https://accounts.google.com/v3/signin/identifier?dsh=S1124775045%3A1684834467844551&continue=https%3A%2F%2Faccounts.google.com%2Fb%2F0%2FAddMailService&followup=https%3A%2F%2Faccounts.google.com%2Fb%2F0%2FAddMailService&ifkv=Af_xneGt0vLiRssyzgs3FtpdJ0GoJ6fsv9jZRV6ihwB2t3GXVVPG8gNiji-L8uOBE_W8lUnQOv3ELg&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Signup</a></br>
+      </div>
+
+    </div>
+  </div>
+  </div>
+  <script>
+    function signupbtn() {
+      alert("Account create");
+      return true;
+    }
+    function myFunction() {
+  var ele = document.getElementById("myInput");
+  if (ele.type === "password") {
+    ele.type = "text";
+  } else {
+    ele.type = "password";
+  }
+}
+function myFunction1() {
+  var ele = document.getElementById("myInput1");
+  if (ele.type === "password") {
+    ele.type = "text";
+  } else {
+    ele.type = "password";
+  }
+}
+  </script>
+</body>
+
+</html>
